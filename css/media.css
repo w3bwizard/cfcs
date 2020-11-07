@@ -1,4 +1,15 @@
-﻿@media only screen and (max-width: 768px) {
+﻿@media only screen and (max-width: 1080px) {
+  .right-con {
+    grid-area: 1 / 2 / 2 / 4;
+  }
+  .content {
+    grid-area: 2 / 2 / 3 / 4;
+  }
+  .left-menu-nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
   .header-text {
     position: static;
     width: 100%;
