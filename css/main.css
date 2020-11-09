@@ -112,16 +112,20 @@ body {
   font-weight: 700;
 }
 .menu-header-left {
-  padding-left: 14px;
   border-left: none;
   border-radius: 0px 3px 3px 0px;
 }
 .menu-header-right {
   flex-direction: row-reverse;
   margin-left: 10px;
-  padding-right: 14px;
   border-right: none;
   border-radius: 3px 0px 0px 3px;
+}
+.menu-title-right {
+  margin-right: 14px;
+}
+.menu-title-left {
+  margin-left: 14px;
 }
 .left-menu-nav {
   display: flex;
@@ -157,7 +161,7 @@ body {
   background-color: #084977;
   box-shadow: 0 0 3px #084977;
 }
-.burger {
+.menu-button {
   display: none;
 }
 /* footer начало */
