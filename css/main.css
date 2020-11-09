@@ -160,6 +160,7 @@ body {
 .burger {
   display: none;
 }
+/* footer начало */
 .footer-con {
   margin: 14px 0;
   border: 1px solid #21394e;
@@ -201,3 +202,4 @@ body {
 .footer-bottom img {
   display: block;
 }
+/* footer конец */
